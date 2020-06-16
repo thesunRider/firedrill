@@ -71,7 +71,6 @@ You can also:
  This method is more effective since to the point of the firewall the attacker is just plainly visiting a page in the website and furthermore this method uses the same certificate as used by the web app.
  All the data is sent as password protected so the waf cannot inspect the http/https packets
 
-
 ### Development
 
 Want to contribute? Great!
@@ -83,6 +82,7 @@ Do stuff with my code but be sure to attribute me before distributing it.
  - Use asyncio for faster speeds
  - Improve code security.
  - Post video Explaing how it works..
+ - Add an option to change user-agent strings.
 
 License
 ----
