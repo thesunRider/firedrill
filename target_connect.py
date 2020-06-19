@@ -14,7 +14,7 @@ cookies =  'A111A135818' #default session id (LEAVE IT AS DEFAULT)
 host = ''        # Symbolic name meaning all available interfaces (LEAVE IT AS DEFAULT)
 port = 12345     # Port to listen to for the bridge
 buffrlngth = 1024 * 100 #the default buffer lenght to read
-speed = 5 #Requests per second
+speed = 0.25 #Request speed- lower faster
 key = "12345" #password used to encrypt the data before senting
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -72,7 +72,7 @@ def terminatesessions():
 #main_function
 def socket_to_net():
 	while True:
-		time.sleep(1000/speed)
+		time.sleep(speed)
 		try:
 			data = s.recv(buffrlngth)
 
