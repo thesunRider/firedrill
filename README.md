@@ -14,11 +14,11 @@ firedrill can bypass all firewalls by tunneling from your attacker machine to yo
  - SSL impersonation in meterpreter didnt work?
 
 # How to setup ?
-Put the ```attacker.py``` and the ```firedrill.php``` in the compromised target.Place firedrill.php in a place where you can execute it through your browser.
+Put the ```target.py``` and the ```firedrill.php``` in the compromised target.Place firedrill.php in a place where you can execute it through your browser.
 
 # Requirements
 plain old Python 2.7 only!
-TESTED IN python 2.4.3,2.7,3
+TESTED IN python 2.4.3,2.7
 
 This program does not need any external libraries to install whatsoever...
 Providing you with maximum portability.
