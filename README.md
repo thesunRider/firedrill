@@ -3,6 +3,8 @@
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://www.youtube.com/channel/UCvbFfGomoaEKufdWCQ44KWA)
 
 firedrill can bypass all firewalls by tunneling from your attacker machine to your target by tunneling traffic through an intermediate php file running on the server.
+**UNLIKE OThER TOOLS FIREDRILL DOESNT USE ANY SYSTEM FUNCTIONS IN THE WEB SHELL AND WORKS USING SESSION SHARING SO IT SHOULD WORK IN ANY COMPROMISED SERVER**
+
 
 **PLEASE DO NOT REPORT THE FILE TO VIRUSTOTAL!**
 
